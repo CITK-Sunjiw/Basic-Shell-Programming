@@ -29,7 +29,7 @@ for((i=1;i<=$m;i++))
 do
 	for((j=1;j<=$n;j++))
 	do
-		arr3[$i$j]=`expr ${arr1[$i$j]} + ${arr2[$i$j]}`
+		arr3[$i$j]=$((${arr1[$i$j]} + ${arr2[$i$j]}))
 	done
 done
 
